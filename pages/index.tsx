@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 
 import useTheme from "@mui/material/styles/useTheme";
 import Box from "@mui/material/Box";
@@ -45,13 +46,13 @@ const Home: NextPage = () => {
         <br />
         <br />
         Even though I try to have a broad understanding of software development,
-        I have a stack in which I'm most productive in:
+        I have a stack in which I&apos;m most productive in:
       </Typography>
       <br />
       <Box p={1} display="flex" flexWrap="wrap" justifyContent="center">
         {technologies.map((o) => (
           <Box key={o} mr={2} display="flex" alignItems="center">
-            <img
+            <Image
               src={`https://enki.fra1.digitaloceanspaces.com/hasanjoldic.com/technology-logos/${o}.svg`}
               alt={o}
               height={50}

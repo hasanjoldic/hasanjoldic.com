@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
@@ -34,7 +36,7 @@ export const Project: React.FC<Props> = ({
           </Typography>
           <Box display="flex">
             {websites.map((o) => (
-              <Box marginRight={2}>
+              <Box key={o} marginRight={2}>
                 <Button
                   href={o}
                   target="_blank"
@@ -47,11 +49,11 @@ export const Project: React.FC<Props> = ({
             ))}
           </Box>
           <Typography>{children}</Typography>
-          <img src={imgSrc} width="80%" />
+          <Image src={imgSrc} width="80%" alt="Project screenshot" />
           <Box display="flex" flexWrap="wrap">
             {technologies?.map((o) => (
-              <Box mr={2}>
-                <img
+              <Box key={o} mr={2}>
+                <Image
                   src={`https://enki.fra1.digitaloceanspaces.com/hasanjoldic.com/technology-logos/${o}.svg`}
                   alt={o}
                   height={20}
