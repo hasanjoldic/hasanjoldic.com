@@ -5,7 +5,7 @@ specifiers:
   '@emotion/react': ^11.10.4
   '@emotion/styled': ^11.10.4
   '@hasan.joldic/components': ^0.3.11
-  '@hasan.joldic/theme': ^0.3.5
+  '@hasan.joldic/theme': ^0.3.6
   '@mui/icons-material': ^5.10.3
   '@mui/material': ^5.10.5
   '@types/node': 18.7.17
@@ -22,7 +22,7 @@ dependencies:
   '@emotion/react': 11.10.4_hcuykvjgjaclfjj4ynqvioedoi
   '@emotion/styled': 11.10.4_hgii5ivx4ovccbb2ospekbyy5y
   '@hasan.joldic/components': 0.3.11_4zivisxj7a4wzby774pq5j7k6m
-  '@hasan.joldic/theme': 0.3.5_v3yt77o2m2et4mvtnhx2sypkum
+  '@hasan.joldic/theme': 0.3.6_v3yt77o2m2et4mvtnhx2sypkum
   '@mui/icons-material': 5.10.3_q2hl5ykxc65u7zta43mkuvhuom
   '@mui/material': 5.10.5_g6p6knjyjrjltwufjb7cltiueu
   next: 12.3.0_ir3quccc6i62x6qn6jjhyjjiey
@@ -398,7 +398,7 @@ packages:
     dependencies:
       '@emotion/react': 11.10.4_hcuykvjgjaclfjj4ynqvioedoi
       '@emotion/styled': 11.10.4_hgii5ivx4ovccbb2ospekbyy5y
-      '@hasan.joldic/theme': 0.3.5_v3yt77o2m2et4mvtnhx2sypkum
+      '@hasan.joldic/theme': 0.3.6_v3yt77o2m2et4mvtnhx2sypkum
       '@mui/icons-material': 5.10.3_q2hl5ykxc65u7zta43mkuvhuom
       '@mui/material': 5.10.5_g6p6knjyjrjltwufjb7cltiueu
       react: 18.2.0
@@ -408,8 +408,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@hasan.joldic/theme/0.3.5_v3yt77o2m2et4mvtnhx2sypkum:
-    resolution: {integrity: sha512-YYzuQlOqVHChHILa95Pux/YqZuJ4IyGalAqFN9zDVhuh2vJT7YIxkesn5z9BsuIEVEDnihCpoMlofx3V6gD02Q==}
+  /@hasan.joldic/theme/0.3.6_v3yt77o2m2et4mvtnhx2sypkum:
+    resolution: {integrity: sha512-mXGozaf1rcrUHLJ/r49C0q3WAm7cuccqyUdcfsQQrQWuQx1mQWiYftdEwNjll/xzblWnN2Wt9JW4fX0wea5b1g==}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@emotion/react': ^11.0.0

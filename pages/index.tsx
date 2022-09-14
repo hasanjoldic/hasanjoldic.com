@@ -23,23 +23,6 @@ const Home: NextPage = () => {
 
   return (
     <Box maxWidth={theme.breakpoints.values.md}>
-      <Button
-        onClick={() => {
-          function getCookie(name: string) {
-            if (typeof document === "undefined") return;
-
-            return document.cookie
-              .split("; ")
-              .find((row) => row.includes(name))
-              ?.split("=")[1];
-          }
-
-          const paletteMode = getCookie("paletteMode");
-          console.log({ paletteMode });
-        }}
-      >
-        Test
-      </Button>
       <Typography variant="h4">Hey there,</Typography>
       <br />
       <Typography>
