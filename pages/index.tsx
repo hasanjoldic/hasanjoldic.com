@@ -42,7 +42,9 @@ const Home: NextPage = () => {
         <br />
         <br />
         The main thing I bring to the table is the ability to figure things out
-        and a methodical aproach to problem solving.
+        and a methodical aproach to problem solving. I can set up a whole web
+        application from scratch, which would include apis, databases, CI/CD,
+        backend and frontent apps.
         <br />
         <br />
         Even though I try to have a broad understanding of software development,
