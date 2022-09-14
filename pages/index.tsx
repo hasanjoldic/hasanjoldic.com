@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 
 import useTheme from "@mui/material/styles/useTheme";
 import Box from "@mui/material/Box";
@@ -52,7 +51,7 @@ const Home: NextPage = () => {
       <Box p={1} display="flex" flexWrap="wrap" justifyContent="center">
         {technologies.map((o) => (
           <Box key={o} mr={2} display="flex" alignItems="center">
-            <Image
+            <img
               src={`https://enki.fra1.digitaloceanspaces.com/hasanjoldic.com/technology-logos/${o}.svg`}
               alt={o}
               height={50}
