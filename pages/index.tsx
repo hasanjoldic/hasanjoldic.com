@@ -29,6 +29,10 @@ const Home: NextPage = () => {
         My name is Hasan.
         <br />
         <br />
+        I am a fullstack software developer with six years of professional
+        experience creating web applications.
+        <br />
+        <br />
         Initially my plan was to be a scientist, but after doing an internship
         with a heavy focus on software development I pivoted to working as a
         software developer full-time and making it my career.
