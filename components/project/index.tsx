@@ -1,3 +1,4 @@
+import useTheme from "@mui/material/styles/useTheme";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
@@ -19,6 +20,7 @@ export const Project: React.FC<Props> = ({
   technologies,
   children,
 }) => {
+  const theme = useTheme();
   return (
     <Box marginBottom={8}>
       <Paper>
@@ -48,9 +50,27 @@ export const Project: React.FC<Props> = ({
           </Box>
           <Typography>{children}</Typography>
           <img src={imgSrc} width="80%" alt="Project screenshot" />
-          <Box display="flex" flexWrap="wrap">
+          <Box
+            display="flex"
+            flexWrap="wrap"
+            sx={{
+              "& > div": {
+                backgroundColor:
+                  theme.palette.mode === "dark"
+                    ? theme.palette.common.white
+                    : "unset",
+              },
+            }}
+          >
             {technologies?.map((o) => (
-              <Box key={o} mr={2}>
+              <Box
+                key={o}
+                mr={2}
+                p={1}
+                borderRadius={1}
+                display="flex"
+                alignItems="center"
+              >
                 <img
                   src={`https://enki.fra1.digitaloceanspaces.com/hasanjoldic.com/technology-logos/${o}.svg`}
                   alt={o}

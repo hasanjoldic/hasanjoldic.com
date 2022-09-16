@@ -5,7 +5,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
 import { Project } from "../components";
-import { Button } from "@mui/material";
 
 const technologies = [
   "JavaScript",
@@ -13,9 +12,12 @@ const technologies = [
   "React",
   "NodeJS",
   "postgreSQL",
+  "Swagger",
   "NextJS",
   "GraphQL",
   "AWS",
+  "Jest",
+  "Cypress",
 ];
 
 const Home: NextPage = () => {
@@ -55,17 +57,8 @@ const Home: NextPage = () => {
         I have a stack in which I&apos;m most productive in:
       </Typography>
       <br />
-      <Box p={1} display="flex" flexWrap="wrap" justifyContent="center">
-        {technologies.map((o) => (
-          <Box key={o} mr={2} display="flex" alignItems="center">
-            <img
-              src={`https://enki.fra1.digitaloceanspaces.com/hasanjoldic.com/technology-logos/${o}.svg`}
-              alt={o}
-              height={50}
-            />
-          </Box>
-        ))}
-      </Box>
+
+      <Technologies />
 
       <Typography
         variant="h4"
@@ -109,6 +102,44 @@ const Home: NextPage = () => {
         (we call them Pethomers) are waiting for the chance to care for your
         four-legged friend.
       </Project>
+    </Box>
+  );
+};
+
+const Technologies = () => {
+  const theme = useTheme();
+  return (
+    <Box
+      p={1}
+      display="flex"
+      flexWrap="wrap"
+      justifyContent="center"
+      rowGap={2}
+      sx={{
+        "& > div": {
+          backgroundColor:
+            theme.palette.mode === "dark"
+              ? theme.palette.common.white
+              : "unset",
+        },
+      }}
+    >
+      {technologies.map((o) => (
+        <Box
+          key={o}
+          mr={2}
+          p={1}
+          borderRadius={1}
+          display="flex"
+          alignItems="center"
+        >
+          <img
+            src={`https://enki.fra1.digitaloceanspaces.com/hasanjoldic.com/technology-logos/${o}.svg`}
+            alt={o}
+            height={50}
+          />
+        </Box>
+      ))}
     </Box>
   );
 };
