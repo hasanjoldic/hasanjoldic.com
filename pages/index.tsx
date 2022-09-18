@@ -13,18 +13,17 @@ const technologies = [
   "NodeJS",
   "postgreSQL",
   "Swagger",
-  "NextJS",
   "GraphQL",
+  "NextJS",
+  "NestJS",
   "AWS",
   "Jest",
   "Cypress",
 ];
 
 const Home: NextPage = () => {
-  const theme = useTheme();
-
   return (
-    <Box maxWidth={theme.breakpoints.values.md}>
+    <Box>
       <Typography variant="h4">Hey there,</Typography>
       <br />
       <Typography>
