@@ -5,7 +5,7 @@ specifiers:
   '@emotion/react': ^11.10.4
   '@emotion/styled': ^11.10.4
   '@hasanjoldic/components': ^0.6.2
-  '@hasanjoldic/nextjs': ^0.2.3
+  '@hasanjoldic/nextjs': ^0.2.4
   '@hasanjoldic/theme': ^0.6.2
   '@mui/icons-material': ^5.10.6
   '@mui/material': ^5.10.6
@@ -24,7 +24,7 @@ dependencies:
   '@emotion/react': 11.10.4_hcuykvjgjaclfjj4ynqvioedoi
   '@emotion/styled': 11.10.4_hgii5ivx4ovccbb2ospekbyy5y
   '@hasanjoldic/components': 0.6.2_4zivisxj7a4wzby774pq5j7k6m
-  '@hasanjoldic/nextjs': 0.2.3_4zivisxj7a4wzby774pq5j7k6m
+  '@hasanjoldic/nextjs': 0.2.4_4zivisxj7a4wzby774pq5j7k6m
   '@hasanjoldic/theme': 0.6.2_@types+react@18.0.19
   '@mui/icons-material': 5.10.6_mylrc3zitczpwxbogvlry7lx3i
   '@mui/material': 5.10.6_g6p6knjyjrjltwufjb7cltiueu
@@ -428,8 +428,8 @@ packages:
       - supports-color
     dev: false
 
-  /@hasanjoldic/nextjs/0.2.3_4zivisxj7a4wzby774pq5j7k6m:
-    resolution: {integrity: sha512-ZkkQ07t8vkMUjfKj4+SbF9+k76XMBvws1C3kHtrqFKnzvPSDx7aW1kxYA6iLNCJg8Fbge5n6rSwOzq2A7mTaJA==, tarball: download/@hasanjoldic/nextjs/0.2.3/2fe023913cc1df0de589bd636c1ef12ad5a9411c}
+  /@hasanjoldic/nextjs/0.2.4_4zivisxj7a4wzby774pq5j7k6m:
+    resolution: {integrity: sha512-KehuKKm2BgZnxY1Q3GJ/QOSw88Ch8hGvWv9TGWlVd1azZohS2cVgjYIa+rTjr2nEs47NBkbBsAlDqjkJd4ax7A==, tarball: download/@hasanjoldic/nextjs/0.2.4/20cb441556c76764d9eea04d3f8905688933e95f}
     dependencies:
       '@emotion/react': 11.10.4_hcuykvjgjaclfjj4ynqvioedoi
       '@emotion/server': 11.10.0
