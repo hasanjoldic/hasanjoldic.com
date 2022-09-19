@@ -11,9 +11,9 @@
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    "@hasanjoldic/components": "^0.6.1",
-    "@hasanjoldic/nextjs": "^0.2.2",
-    "@hasanjoldic/theme": "^0.6.1",
+    "@hasanjoldic/components": "^0.6.2",
+    "@hasanjoldic/nextjs": "^0.2.3",
+    "@hasanjoldic/theme": "^0.6.2",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.6",
     "next": "12.3.0",
