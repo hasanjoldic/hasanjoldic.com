@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 WORKDIR /app
 
-COPY package.json .npmrc* ./
+COPY package.json package-lock.json .npmrc* ./
 RUN npm install
 
 COPY . .
