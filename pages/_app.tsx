@@ -1,13 +1,3 @@
-import type { AppProps } from "next/app";
+import { App } from "@hasanjoldic/nextjs";
 
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-
-const theme = createTheme();
-
-export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <ThemeProvider theme={theme}>
-      <Component {...pageProps} />
-    </ThemeProvider>
-  );
-}
+export default App;
